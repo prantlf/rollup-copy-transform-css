@@ -32,7 +32,8 @@
     "lint": "denolint",
     "check": "node test",
     "cover": "c8 node test",
-    "test": "denolint && c8 node test"
+    "test": "denolint && c8 node test",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "c8": {
     "check-coverage": true,
