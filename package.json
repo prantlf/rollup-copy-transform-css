@@ -88,11 +88,11 @@
     "rollup",
     "plugin",
     "rollup-plugin",
-    "colpy",
+    "copy",
     "transform",
     "css",
     "stylesheets",
     "minify",
-    "concatenate"
+    "inline"
   ]
 }
