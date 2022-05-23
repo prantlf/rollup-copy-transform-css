@@ -52,7 +52,7 @@ test('handles missing transformations', () => {
     createTransform()
     fail('accepted empty transformations')
   } catch ({ message }) {
-    strictEqual(message, 'Neither minify nor inline nor plugins was set')
+    strictEqual(message, 'Neither minify nor inline nor plugins were set')
   }
 })
 

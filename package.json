@@ -30,9 +30,9 @@
   "scripts": {
     "prepare": "rollup -c",
     "lint": "denolint",
-    "check": "node test",
-    "cover": "c8 node test",
-    "test": "denolint && c8 node test",
+    "check": "teru-esm test/*.js",
+    "cover": "c8 teru-esm test/*.js",
+    "test": "denolint && c8 teru-esm test/*.js",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "c8": {
@@ -62,9 +62,10 @@
     ]
   },
   "dependencies": {
-    "cssnano": "^5.1.7",
+    "cssnano": "^5.1.9",
+    "esbuild": "^0.14.39",
     "picomatch": "^2.3.1",
-    "postcss": "^8.4.13",
+    "postcss": "^8.4.14",
     "postcss-fail-on-warn": "^0.2.1",
     "postcss-import": "^14.1.0",
     "postcss-url": "^10.1.3"
@@ -74,11 +75,12 @@
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
     "builtin-modules": "^3.3.0",
-    "c8": "^7.11.2",
-    "rollup": "^2.73.0",
+    "c8": "^7.11.3",
+    "rollup": "^2.74.1",
     "rollup-plugin-copy": "^3.4.0",
-    "tehanu": "^0.2.2",
-    "tehanu-repo-coco": "^0.0.2"
+    "tehanu": "^1.0.0",
+    "tehanu-repo-coco": "^1.0.0",
+    "tehanu-teru": "^1.0.0"
   },
   "peerDependencies": {
     "rollup": "^2.0.0",
