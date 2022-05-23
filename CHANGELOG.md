@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/prantlf/rollup-copy-transform-css/compare/v1.2.0...v1.2.1) (2022-05-23)
+
+
+### Bug Fixes
+
+* Remove rollup-plugin-copy from peerDependencies ([5b830b3](https://github.com/prantlf/rollup-copy-transform-css/commit/5b830b3272a7698384474771337ac4ac9823ee76))
+
 # [1.2.0](https://github.com/prantlf/rollup-copy-transform-css/compare/v1.1.0...v1.2.0) (2022-05-23)
 
 
