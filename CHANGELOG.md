@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/prantlf/rollup-copy-transform-css/compare/v1.1.0...v1.2.0) (2022-05-23)
+
+
+### Features
+
+* Use eslint optionally instead of postcss ([d8fa58d](https://github.com/prantlf/rollup-copy-transform-css/commit/d8fa58d9abc890dfe8021a36e5051706ebcbdc82))
+
 # 1.1.0 (2022-05-15)
 
 
