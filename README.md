@@ -29,12 +29,12 @@ export default {
 
 ## Installation
 
-Make sure that you use [Node.js] 14 or newer and [Rollup] 2 or newer. Use your favourite package manager - [NPM], [PNPM] or [Yarn]:
+Make sure that you use [Node.js] 14 or newer and [Rollup] 2 or newer. Use your favourite package manager - [NPM], [PNPM] or [Yarn]. Make sure that you include [rollup-plugin-copy] too:
 
 ```sh
-npm i -D rollup-copy-transform-css
-pnpm i -D rollup-copy-transform-css
-yarn add -D rollup-copy-transform-css
+npm i -D rollup-copy-transform-css rollup-plugin-copy
+pnpm i -D rollup-copy-transform-css rollup-plugin-copy
+yarn add -D rollup-copy-transform-css rollup-plugin-copy
 ```
 
 ## Usage

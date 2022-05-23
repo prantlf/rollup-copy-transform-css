@@ -82,8 +82,7 @@
     "tehanu-teru": "^1.0.0"
   },
   "peerDependencies": {
-    "rollup": "^2.0.0",
-    "rollup-plugin-copy": "^3.0.0"
+    "rollup": "^2.0.0"
   },
   "keywords": [
     "rollup",
