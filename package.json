@@ -32,8 +32,7 @@
     "lint": "denolint",
     "check": "teru-esm test/*.js",
     "cover": "c8 teru-esm test/*.js",
-    "test": "denolint && c8 teru-esm test/*.js",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "test": "denolint && c8 teru-esm test/*.js"
   },
   "c8": {
     "check-coverage": true,
