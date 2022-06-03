@@ -61,8 +61,8 @@
     ]
   },
   "dependencies": {
-    "cssnano": "^5.1.9",
-    "esbuild": "^0.14.39",
+    "cssnano": "^5.1.10",
+    "esbuild": "^0.14.42",
     "picomatch": "^2.3.1",
     "postcss": "^8.4.14",
     "postcss-fail-on-warn": "^0.2.1",
@@ -75,7 +75,7 @@
     "@semantic-release/git": "^10.0.1",
     "builtin-modules": "^3.3.0",
     "c8": "^7.11.3",
-    "rollup": "^2.74.1",
+    "rollup": "^2.75.5",
     "rollup-plugin-copy": "^3.4.0",
     "tehanu": "^1.0.0",
     "tehanu-repo-coco": "^1.0.0",
