@@ -5,7 +5,7 @@
 ](https://www.npmjs.com/package/rollup-copy-transform-css)
 [![Coverage](https://codecov.io/gh/prantlf/rollup-copy-transform-css/branch/master/graph/badge.svg)](https://codecov.io/gh/prantlf/rollup-copy-transform-css)
 
-Inlining, minifying and other methods for transforming stylesheets when copying them with [rollup-plugin-copy].
+Inlining, minifying and other methods for transforming stylesheets when copying them with [rollup-plugin-copy], [rollup-plugin-css-lit] or [rollup-plugin-scss-lit].
 
 ## Synopsis
 
@@ -194,6 +194,8 @@ Licensed under the [MIT License].
 [cssnano]: https://cssnano.co/
 [esbuild]: https://esbuild.github.io/
 [rollup-plugin-copy]: https://www.npmjs.com/package/rollup-plugin-copy
+[rollup-plugin-css-lit]: https://www.npmjs.com/package/rollup-plugin-css-lit
+[rollup-plugin-scss-lit]: https://www.npmjs.com/package/rollup-plugin-scss-lit
 [postcss-import]: https://www.npmjs.com/package/postcss-import
 [postcss-url]: https://www.npmjs.com/package/postcss-url
 [postcss-fail-on-warn]: https://www.npmjs.com/package/postcss-fail-on-warn
