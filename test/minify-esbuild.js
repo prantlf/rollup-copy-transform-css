@@ -25,7 +25,7 @@ test('minifies with an inline source map', async () => {
     map: {}, filter: '*.css'
   })
   strictEqual(css, `body{display:flex}
-/*# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsiZmxleC1ib2R5LmNzcyJdLAogICJzb3VyY2VzQ29udGVudCI6IFsiYm9keSB7IGRpc3BsYXk6IGZsZXggfSJdLAogICJtYXBwaW5ncyI6ICJBQUFBLEtBQU8iLAogICJuYW1lcyI6IFtdCn0K */
+/*# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsiZmxleC1ib2R5LmNzcyJdLAogICJzb3VyY2VzQ29udGVudCI6IFsiYm9keSB7IGRpc3BsYXk6IGZsZXggfSJdLAogICJtYXBwaW5ncyI6ICJBQUFBLEtBQU8sUUFBUyxJQUFLIiwKICAibmFtZXMiOiBbXQp9Cg== */
 `)
 })
 
@@ -36,7 +36,7 @@ test('minifies with an external source map', async () => {
   strictEqual(css, `body{display:flex}
 /*# sourceMappingURL=flex-body.css.map */`)
   const map = await readFile('test/flex-body.css.map', 'utf8')
-  strictEqual(map, '{"version":3,"sources":["test/flex-body.css"],"sourcesContent":["body { display: flex }"],"mappings":"AAAA,KAAO","names":[]}')
+  strictEqual(map, '{"version":3,"sources":["test/flex-body.css"],"sourcesContent":["body { display: flex }"],"mappings":"AAAA,KAAO,QAAS,IAAK","names":[]}')
 })
 
 test('handles broken input', async () => {

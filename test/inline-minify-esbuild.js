@@ -24,7 +24,7 @@ test('inlines and minifies without source map by default', async () => {
 test('inlines and minifies with an inline source map', async () => {
   const css = await inminCss('@import "test/controls.css"; body { display: flex }', 'flex-body.css', { map: true })
   strictEqual(css, `.control{display:flex}body{display:flex}
-/*# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidGVzdC9jb250cm9scy5jc3MiLCAiZmxleC1ib2R5LmNzcyJdLAogICJzb3VyY2VzQ29udGVudCI6IFsiLmNvbnRyb2wgeyBkaXNwbGF5OiBmbGV4IH1cbiIsICJAaW1wb3J0IFwidGVzdC9jb250cm9scy5jc3NcIjsgYm9keSB7IGRpc3BsYXk6IGZsZXggfSJdLAogICJtYXBwaW5ncyI6ICJBQUFBLFNBQVcsYUNBa0IsS0FBTyIsCiAgIm5hbWVzIjogW10KfQo= */
+/*# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidGVzdC9jb250cm9scy5jc3MiLCAiZmxleC1ib2R5LmNzcyJdLAogICJzb3VyY2VzQ29udGVudCI6IFsiLmNvbnRyb2wgeyBkaXNwbGF5OiBmbGV4IH1cbiIsICJAaW1wb3J0IFwidGVzdC9jb250cm9scy5jc3NcIjsgYm9keSB7IGRpc3BsYXk6IGZsZXggfSJdLAogICJtYXBwaW5ncyI6ICJBQUFBLENBQUMsUUFBVSxRQUFTLElBQUssQ0NBSSxLQUFPLFFBQVMsSUFBSyIsCiAgIm5hbWVzIjogW10KfQo= */
 `)
 })
 
@@ -39,7 +39,7 @@ test('inlines and minifies with an external source map', async () => {
   "version": 3,
   "sources": ["test/controls.css", "flex-body.css"],
   "sourcesContent": [".control { display: flex }\\n", "@import \\"test/controls.css\\"; body { display: flex }"],
-  "mappings": "AAAA,SAAW,aCAkB,KAAO",
+  "mappings": "AAAA,CAAC,QAAU,QAAS,IAAK,CCAI,KAAO,QAAS,IAAK",
   "names": []
 }
 `)

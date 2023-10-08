@@ -40,7 +40,7 @@ test('inlines with an inline source map', async () => {
 body {
   display: flex;
 }
-/*# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidGVzdC9jb250cm9scy5jc3MiLCAiZmxleC1ib2R5LmNzcyJdLAogICJzb3VyY2VzQ29udGVudCI6IFsiLmNvbnRyb2wgeyBkaXNwbGF5OiBmbGV4IH1cbiIsICJAaW1wb3J0IFwidGVzdC9jb250cm9scy5jc3NcIjsgYm9keSB7IGRpc3BsYXk6IGZsZXggfSJdLAogICJtYXBwaW5ncyI6ICI7QUFBQTtBQUFXO0FBQUE7OztBQ0FrQjtBQUFPO0FBQUE7IiwKICAibmFtZXMiOiBbXQp9Cg== */
+/*# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidGVzdC9jb250cm9scy5jc3MiLCAiZmxleC1ib2R5LmNzcyJdLAogICJzb3VyY2VzQ29udGVudCI6IFsiLmNvbnRyb2wgeyBkaXNwbGF5OiBmbGV4IH1cbiIsICJAaW1wb3J0IFwidGVzdC9jb250cm9scy5jc3NcIjsgYm9keSB7IGRpc3BsYXk6IGZsZXggfSJdLAogICJtYXBwaW5ncyI6ICI7QUFBQSxDQUFDO0FBQVUsV0FBUztBQUFLOzs7QUNBSTtBQUFPLFdBQVM7QUFBSzsiLAogICJuYW1lcyI6IFtdCn0K */
 `)
 })
 
@@ -63,7 +63,7 @@ body {
   "version": 3,
   "sources": ["test/controls.css", "flex-body.css"],
   "sourcesContent": [".control { display: flex }\\n", "@import \\"test/controls.css\\"; body { display: flex }"],
-  "mappings": ";AAAA;AAAW;AAAA;;;ACAkB;AAAO;AAAA;",
+  "mappings": ";AAAA,CAAC;AAAU,WAAS;AAAK;;;ACAI;AAAO,WAAS;AAAK;",
   "names": []
 }
 `)
