@@ -1,6 +1,6 @@
-import { fail, strictEqual } from 'assert'
-import { fileURLToPath } from 'url'
-import { access, readFile, unlink } from 'fs/promises'
+import { fail, strictEqual } from 'node:assert'
+import { fileURLToPath } from 'node:url'
+import { access, readFile, unlink } from 'node:fs/promises'
 import tehanu from 'tehanu'
 import { createTransform } from '../lib/index.js'
 

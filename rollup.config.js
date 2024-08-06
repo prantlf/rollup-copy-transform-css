@@ -1,10 +1,10 @@
-import builtins from 'builtin-modules/static.js'
+import { builtinModules } from 'node:module'
 
 export default {
   input: 'lib/index.js',
   output: { file: 'lib/index.cjs', format: 'cjs', sourcemap: true },
   external: [
-    ...builtins, 'cssnano', 'esbuild', 'fs/promises', 'picomatch', 'postcss',
-    'postcss-fail-on-warn', 'postcss-import', 'postcss-url'
+    ...builtinModules, 'cssnano', 'esbuild', 'node:fs/promises', 'node:path',
+    'picomatch', 'postcss', 'postcss-fail-on-warn', 'postcss-import', 'postcss-url'
   ]
 }
