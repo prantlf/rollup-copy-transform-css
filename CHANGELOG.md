@@ -1,5 +1,21 @@
 # Changes
 
+## [2.0.0](https://github.com/prantlf/rollup-copy-transform-css/compare/v1.2.6...v2.0.0) (2024-08-06)
+
+### Bug Fixes
+
+* Re-publish 1.2.6 as 2.0.0 because of a breaking change ([a16affb](https://github.com/prantlf/rollup-copy-transform-css/commit/a16affba089a71ec9cf005f7854e20f89d0c2447))
+
+### BREAKING CHANGES
+
+The minimum version of Node.js is 18 from now on.
+
+## [1.2.7](https://github.com/prantlf/rollup-copy-transform-css/compare/v1.2.5...v1.2.7) (2024-08-06)
+
+### Bug Fixes
+
+* Re-publish 1.2.5 as 1.2.7 to fix breaking change in 1.2.6 ([b8a1f06](https://github.com/prantlf/rollup-copy-transform-css/commit/b8a1f06d57967b6fec13a787bd486c0306bd84a6))
+
 ## [1.2.6](https://github.com/prantlf/rollup-copy-transform-css/compare/v1.2.5...v1.2.6) (2024-08-06)
 
 ### Bug Fixes
