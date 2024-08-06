@@ -1,5 +1,11 @@
 # Changes
 
+## [1.2.6](https://github.com/prantlf/rollup-copy-transform-css/compare/v1.2.5...v1.2.6) (2024-08-06)
+
+### Bug Fixes
+
+* Upgrade dependencies ([4a520b3](https://github.com/prantlf/rollup-copy-transform-css/commit/4a520b399afadb40c26d4577a4cbf607c231351b))
+
 ## [1.2.5](https://github.com/prantlf/rollup-copy-transform-css/compare/v1.2.4...v1.2.5) (2023-10-08)
 
 ### Bug Fixes
