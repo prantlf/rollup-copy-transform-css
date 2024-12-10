@@ -1,6 +1,6 @@
 {
   "name": "rollup-copy-transform-css",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Inlining, minifying and other methods for transforming stylesheets when copying them with rollup-plugin-copy.",
   "author": "Ferdinand Prantl <prantlf@gmail.com> (http://prantl.tk)",
   "license": "MIT",
